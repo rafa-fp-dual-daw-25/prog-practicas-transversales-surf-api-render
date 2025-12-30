@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# PyCharm
+.idea/
+
+# Entornos virtuales
+venv/
+env/
+
+# Variables de entorno
+.env
