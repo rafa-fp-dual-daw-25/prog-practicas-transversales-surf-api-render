@@ -1,0 +1,122 @@
+{
+  "lanzada": {
+    "lat": 42.45,
+    "long": -8.87,
+    "nombre": "A Lanzada, O Grove",
+    "pais": "España"
+  },
+  "patos": {
+    "lat": 42.15,
+    "long": -8.82,
+    "nombre": "Patos, Nigrán",
+    "pais": "España"
+  },
+  "pantin": {
+    "lat": 43.63,
+    "long": -8.11,
+    "nombre": "Pantín, Ferrol",
+    "pais": "España"
+  },
+  "razo": {
+    "lat": 43.29,
+    "long": -8.70,
+    "nombre": "Razo, Carballo",
+    "pais": "España"
+  },
+  "doninos": {
+    "lat": 43.51,
+    "long": -8.31,
+    "nombre": "Doñinos, Ferrol",
+    "pais": "España"
+  },
+  "mundaka": {
+    "lat": 43.40,
+    "long": -2.69,
+    "nombre": "Mundaka, Vizcaya",
+    "pais": "España"
+  },
+  "zarautz": {
+    "lat": 43.28,
+    "long": -2.16,
+    "nombre": "Zarautz, Guipúzcoa",
+    "pais": "España"
+  },
+  "somo": {
+    "lat": 43.45,
+    "long": -3.75,
+    "nombre": "Somo, Cantabria",
+    "pais": "España"
+  },
+  "rodiles": {
+    "lat": 43.53,
+    "long": -5.38,
+    "nombre": "Rodiles, Asturias",
+    "pais": "España"
+  },
+  "quemao": {
+    "lat": 29.22,
+    "long": -13.51,
+    "nombre": "El Quemao, Lanzarote",
+    "pais": "España"
+  },
+  "maresias": {
+    "lat": -23.79,
+    "long": -45.56,
+    "nombre": "Praia de Maresias, São Paulo",
+    "pais": "Brasil"
+  },
+  "joaquina": {
+    "lat": -27.63,
+    "long": -48.45,
+    "nombre": "Praia da Joaquina, Santa Catarina",
+    "pais": "Brasil"
+  },
+  "arpoador": {
+    "lat": -22.99,
+    "long": -43.19,
+    "nombre": "Arpoador, Rio de Janeiro",
+    "pais": "Brasil"
+  },
+  "cacimba": {
+    "lat": -3.84,
+    "long": -32.44,
+    "nombre": "Cacimba do Padre, F. de Noronha",
+    "pais": "Brasil"
+  },
+  "guarda": {
+    "lat": -27.90,
+    "long": -48.60,
+    "nombre": "Guarda do Embaú, Santa Catarina",
+    "pais": "Brasil"
+  },
+  "saquarema": {
+    "lat": -22.93,
+    "long": -42.48,
+    "nombre": "Itaúna, Saquarema (Capital do Surf)",
+    "pais": "Brasil"
+  },
+  "itacare": {
+    "lat": -14.27,
+    "long": -38.99,
+    "nombre": "Itacaré, Bahía",
+    "pais": "Brasil"
+  },
+  "campeche": {
+    "lat": -27.68,
+    "long": -48.48,
+    "nombre": "Praia do Campeche, Florianópolis",
+    "pais": "Brasil"
+  },
+  "itamambuca": {
+    "lat": -23.40,
+    "long": -45.01,
+    "nombre": "Itamambuca, Ubatuba",
+    "pais": "Brasil"
+  },
+  "pipa": {
+    "lat": -6.23,
+    "long": -35.04,
+    "nombre": "Praia do Amor, Pipa",
+    "pais": "Brasil"
+  }
+}
