@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Surf API 🌊</title>
+    <link href="{{ url_for('static', path='/style.css') }}" rel="stylesheet">
+</head>
+<body>
+<h1>¡Bienvenido a la Surf API! 🏄</h1>
+
+<div class="api-descripcion">
+    <p>Esta plataforma permite monitorear en tiempo real las condiciones de surf en <strong>España, Portugal y
+        Brasil</strong>.
+        Además de consultar la previsión de olas y viento, puedes <strong>añadir tus propios picos</strong> favoritos a
+        la base de datos o <strong>eliminar</strong> aquellos registros creados por la comunidad.</p>
+</div>
+
+<h2>Consulta tu pico favorito 🌊</h2>
+
+<select id="selectorPlaya">
+    {{ opciones_dinamicas | safe }}
+</select>
+
+<button class="btn-primary" onclick="consultar()" type="button">Consultar</button>
+<button class="btn-alert" onclick="eliminarPlaya()" type="button">Eliminar Playa</button>
+
+<div id="resultado"></div>
+
+<hr>
+
+<div id="contenedor-registro">
+    <h2>Registrar nueva playa 🏖️</h2>
+    <div class="formulario">
+        <input id="new-id" placeholder="ID (ej: baldaio)" type="text">
+        <input id="new-nombre" placeholder="Nombre (ej: Playa de Baldaio)" type="text">
+        <input id="new-lat" placeholder="Latitud" step="any" type="number">
+        <input id="new-long" placeholder="Longitud" step="any" type="number">
+
+        <div class="grupo-radio">
+            <input id="Brasil" name="pais" type="radio" value="Brasil">
+            <label for="Brasil">Brasil</label>
+            <br>
+            <input id="España" name="pais" type="radio" value="España">
+            <label for="España">España</label>
+        </div>
+
+        <button class="btn-primary" onclick="registrarPlaya()" type="button">Guardar Playa</button>
+    </div>
+    <p id="mensaje-registro"></p>
+</div>
+
+<script src="{{ url_for('static', path='/script.js') }}"></script>
+</body>
+</html>

@@ -19,7 +19,7 @@
   },
   "razo": {
     "lat": 43.29,
-    "long": -8.70,
+    "long": -8.7,
     "nombre": "Razo, Carballo",
     "pais": "España"
   },
@@ -30,7 +30,7 @@
     "pais": "España"
   },
   "mundaka": {
-    "lat": 43.40,
+    "lat": 43.4,
     "long": -2.69,
     "nombre": "Mundaka, Vizcaya",
     "pais": "España"
@@ -84,8 +84,8 @@
     "pais": "Brasil"
   },
   "guarda": {
-    "lat": -27.90,
-    "long": -48.60,
+    "lat": -27.9,
+    "long": -48.6,
     "nombre": "Guarda do Embaú, Santa Catarina",
     "pais": "Brasil"
   },
@@ -108,7 +108,7 @@
     "pais": "Brasil"
   },
   "itamambuca": {
-    "lat": -23.40,
+    "lat": -23.4,
     "long": -45.01,
     "nombre": "Itamambuca, Ubatuba",
     "pais": "Brasil"
@@ -118,5 +118,65 @@
     "long": -35.04,
     "nombre": "Praia do Amor, Pipa",
     "pais": "Brasil"
+  },
+  "nazare": {
+    "lat": 39.60,
+    "long": -9.08,
+    "nombre": "Nazaré (Praia do Norte)",
+    "pais": "Portugal"
+  },
+  "peniche": {
+    "lat": 39.35,
+    "long": -9.38,
+    "nombre": "Supertubos, Peniche",
+    "pais": "Portugal"
+  },
+  "ericeira": {
+    "lat": 38.96,
+    "long": -9.41,
+    "nombre": "Ribeira d'Ilhas, Ericeira",
+    "pais": "Portugal"
+  },
+  "carcavelos": {
+    "lat": 38.67,
+    "long": -9.33,
+    "nombre": "Carcavelos, Lisboa",
+    "pais": "Portugal"
+  },
+  "sagres": {
+    "lat": 37.01,
+    "long": -8.94,
+    "nombre": "Praia do Beliche, Sagres",
+    "pais": "Portugal"
+  },
+  "arrifana": {
+    "lat": 37.29,
+    "long": -8.86,
+    "nombre": "Arrifana, Aljezur",
+    "pais": "Portugal"
+  },
+  "espinho": {
+    "lat": 41.00,
+    "long": -8.64,
+    "nombre": "Casino, Espinho",
+    "pais": "Portugal"
+  },
+  "figueira": {
+    "lat": 40.15,
+    "long": -8.87,
+    "nombre": "Buarcos, Figueira da Foz",
+    "pais": "Portugal"
+  },
+  "viana": {
+    "lat": 41.68,
+    "long": -8.83,
+    "nombre": "Praia do Cabedelo, Viana do Castelo",
+    "pais": "Portugal"
+  },
+  "matosinhos": {
+    "lat": 41.17,
+    "long": -8.69,
+    "nombre": "Praia de Matosinhos, Porto",
+    "pais": "Portugal"
   }
 }

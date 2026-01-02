@@ -1,0 +1,153 @@
+/* --- ESTILOS GENERALES --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: #f0f8ff;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #eee;
+    margin: 40px 0;
+}
+
+.api-descripcion {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.6;
+    color: #444;
+    font-size: 0.95em;
+}
+
+/* --- FORMULARIOS --- */
+select,
+#contenedor-registro input {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    background-color: white;
+}
+
+/* --- BOTONES (Base) --- */
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.1s ease, box-shadow 0.1s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* --- MODIFICADORES DE BOTONES --- */
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0062cc;
+}
+
+.btn-primary:active {
+    background-color: #004494;
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.2);
+}
+
+.btn-alert {
+    background-color: #dc3545;
+}
+
+.btn-alert:hover {
+    background-color: #c82333;
+}
+
+.btn-alert:active {
+    background-color: #bd2130;
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.2);
+}
+
+/* --- TARJETA DE RESULTADOS --- */
+#resultado {
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.5s ease;
+    margin: 20px auto;
+    max-width: 350px;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+#resultado h3 {
+    text-align: center;
+    color: #007bff;
+    margin-top: 0;
+    border-bottom: 2px solid #f0f8ff;
+    padding-bottom: 15px;
+}
+
+/* --- GRID DE DATOS --- */
+.dato-fila {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 10px;
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+.etiqueta {
+    text-align: right;
+    color: #555;
+    font-weight: bold;
+}
+
+.valor {
+    text-align: left;
+    color: #333;
+}
+
+/* --- CONTENEDOR DE REGISTRO --- */
+#contenedor-registro {
+    margin-top: 40px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.grupo-radio {
+    text-align: left;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.grupo-radio label {
+    margin-right: 15px;
+    cursor: pointer;
+}
